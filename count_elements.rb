@@ -5,8 +5,8 @@ def count_elements(array)
   hash = {}
   array.each do |element|
     if count == 0
-      count = 1
       word = element
+      count = 1
       hash[word] = 1
 
     elsif element == word && count != 0
