@@ -1,7 +1,6 @@
 def count_elements(array)
   # code goes here
   count = 0
-  word = ""
   hash = {}
   array.each do |element|
     if hash[element] == nil # if not in hash, then assign it
