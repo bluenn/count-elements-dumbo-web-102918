@@ -9,7 +9,7 @@ end
   #   if hash.has_key?(element) != true # if not in hash, then assign it
   #      hash[element] = 1
   #      count = 1
-  # 
+  #
   #   elsif hash.has_key?(element) == true             #if in hash, then just increase count
   #     count+=  1
   #     hash[element] = count
