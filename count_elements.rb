@@ -4,8 +4,8 @@ def count_elements(array)
   word = ""
   hash = {}
   array.each do |element|
-    
-      if hash[element] = nil
+
+      if hash[element] = nil # if not in hash, then assign it
        hash[element] = 1
        count = 1
       
