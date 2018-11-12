@@ -9,7 +9,7 @@ def count_elements(array)
       word = element
       hash[word] = 1
 
-    elsif element == word && count != 0
+    elsif word == element && count != 0
       count = count + 1
       hash[word] = count
     end
