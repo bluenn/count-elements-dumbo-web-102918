@@ -8,8 +8,8 @@ def count_elements(array)
        count = 1
 
     elsif hash.has_key?(element) == true             #if in hash, then just increase count
-      hash[element] = count
       count+=  1
+      hash[element] = count
     end
   end
   puts hash
