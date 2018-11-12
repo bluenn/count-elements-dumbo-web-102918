@@ -14,5 +14,5 @@ def count_elements(array)
       hash[word] = count
     end
   end
-  hash     
+  hash
 end
