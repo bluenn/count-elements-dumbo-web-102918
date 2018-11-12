@@ -4,14 +4,14 @@ def count_elements(array)
   word = ""
   hash = {}
   array.each do |element|
-    if count == 0
-      word = element
-      count = 1
-      hash[word] = 1
-
-    elsif element == word && count != 0
+    
+      if hash[element] = nil
+       hash[element] = 1
+       count = 1
+      
+    elsif hash[element] != nil
       count = count + 1
-      hash[word] = count
+      hash[element] = count
     end
   end
   hash
